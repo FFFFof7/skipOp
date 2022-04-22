@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      font-size: 16px;
+    }
+
+    .setting-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      width: 800px;
+      border-collapse: collapse;
+      text-align: center;
+    }
+
+    form {
+      margin-left: 50px;
+    }
+
+    .options {
+      display: flex;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="options">
+    <table class="setting-list" border>
+      <thead>
+        <tr>
+          <th>BV号</th>
+          <th>跳转时间</th>
+          <th>操作</th>
+        </tr>
+      </thead>
+      <tbody>
+
+      </tbody>
+    </table>
+
+    <form>
+      <label for="name">id</label>
+      <input type="text" id="name" name="epId" value="">
+
+      <label for="value">value</label>
+      <input type="text" id="value" name="time" value="">
+
+      <input type="submit" value="提交">
+    </form>
+  </div>
+  <script src="options.js"></script>
+</body>
+
+</html>
